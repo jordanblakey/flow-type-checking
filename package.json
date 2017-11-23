@@ -1,0 +1,20 @@
+{
+  "name": "flow-type-checking",
+  "version": "1.0.0",
+  "description": "Sample Flow app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "dependencies": {
+    "flow-bin": "^0.59.0"
+  }
+}

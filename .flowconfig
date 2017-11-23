@@ -1,0 +1,21 @@
+# This is a comment
+  # This is a comment
+
+[include]
+../otherdir/src
+
+[ignore]
+.*/build/.*
+
+[libs]
+./lib
+
+[lints]
+# all=off by default
+all=warn
+untyped-type-import=error
+sketchy-null-bool=off
+
+[options]
+
+[strict]
